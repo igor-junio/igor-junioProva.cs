@@ -3,11 +3,13 @@
 // cada clase deve funcionar de forma independente.
 
 // Requisitos do sistema. o sistema deve conter:
-// 3 clase (Ex: )
-// 
-// 
-// 
-// 
+// 3 clase (Ex: Produto, Pessoa, Conta, etc. )
+// Atributos privados (private)
+// Propiedades (get / set) 
+// Construtor em cada classe
+// Metodo ToString() em cada classe
+
+
 class
 
 
