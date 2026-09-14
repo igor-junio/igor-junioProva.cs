@@ -9,6 +9,14 @@
 // Construtor em cada classe
 // Metodo ToString() em cada classe
 
+// Sugestoes de classe
+// Voce pode escolher qualquer 3 classe, por exemplo:
+// Pessoa , Produto , ContaBancaria, ou , Aluno , Retangulo , Funcionario, . ou criar suas proprias classe
+
+//
+//
+//
+//
 
 class
 
