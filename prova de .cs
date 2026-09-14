@@ -13,18 +13,14 @@
 // Voce pode escolher qualquer 3 classe, por exemplo:
 // Pessoa , Produto , ContaBancaria, ou , Aluno , Retangulo , Funcionario, . ou criar suas proprias classe
 
-//
-//
-//
+// Encapsulanto (Obrigatorio)
+// Todos os atributos devem ser: private
+// O acesso deve ser feito por: Properties (get / set)
+// Validaçoes devem ser aplicadas quando necessario.
+
+//construtores (obrigatorio)
+//cada classe deve ter: um contrutor com paramentros
+//o construtor deve: 
 //
 
 class
-
-
-
-
-
-
-
-
-
