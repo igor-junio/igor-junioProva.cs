@@ -18,9 +18,9 @@
 // O acesso deve ser feito por: Properties (get / set)
 // Validaçoes devem ser aplicadas quando necessario.
 
-//construtores (obrigatorio)
-//cada classe deve ter: um contrutor com paramentros
-//o construtor deve: 
+// Construtores (obrigatorio)
+// Cada classe deve ter: um contrutor com paramentros
+// O construtor deve: inicializar os Atributos, Garantir Valores Validos
 //
 
 class
