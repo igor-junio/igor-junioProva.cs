@@ -21,10 +21,8 @@
 // Construtores (obrigatorio)
 // Cada classe deve ter: um contrutor com paramentros
 // O construtor deve: inicializar os Atributos, Garantir Valores Validos
-//
 
-
-
+// e eu vui ver os eslaides
 
 using System;
 
@@ -160,5 +158,76 @@ class ContaBancaria
 class Program
 {
 
+ static void Main(string[] args)
+    {
+        // =========================
+        // OBJETOS DA CLASSE PESSOA
+        // =========================
+
+        Pessoa pessoa1 = new Pessoa("João", 20);
+        Pessoa pessoa2 = new Pessoa("Maria", 25);
+
+        // Alterando valores usando Properties
+        pessoa1.Nome = "Carlos";
+        pessoa2.Idade = 26;
 
 
+        // =========================
+        // OBJETOS DA CLASSE PRODUTO
+        // =========================
+
+        Produto produto1 = new Produto("Notebook", 3500.00);
+        Produto produto2 = new Produto("Celular", 2000.00);
+
+        // Alterando valores usando Properties
+        produto1.Preco = 3200.00;
+        produto2.Nome = "Smartphone";
+
+
+        // =========================
+        // OBJETOS DA CLASSE CONTA
+        // =========================
+
+        ContaBancaria conta1 = new ContaBancaria(1234, 1500.00);
+        ContaBancaria conta2 = new ContaBancaria(5678, 2500.00);
+
+        // Alterando valores usando Properties
+        conta1.Saldo = 1800.00;
+        conta2.Numero = 9876;
+
+
+        // =========================
+        // EXIBINDO OS OBJETOS
+        // =========================
+
+        Console.WriteLine("=== PESSOAS ===");
+        Console.WriteLine(pessoa1);
+        Console.WriteLine(pessoa2);
+
+        Console.WriteLine();
+
+        Console.WriteLine("=== PRODUTOS ===");
+        Console.WriteLine(produto1);
+        Console.WriteLine(produto2);
+
+        Console.WriteLine();
+
+        Console.WriteLine("=== CONTAS BANCÁRIAS ===");
+        Console.WriteLine(conta1);
+        Console.WriteLine(conta2);
+    }
+}
+
+
+// 1) Cria 2 pessoas, 2 produtos e 2 contas.
+
+// 2) Coloca os valores usando os construtores.
+
+// 3) Altera alguns valores usando get/set.
+
+// 4) Verifica os valores para não aceitar coisas erradas, como idade negativa ou preço negativo.
+
+// 5)  Mostra tudo na tela usando Console.WriteLine()
+
+// Em uma frase:
+// O programa cria pessoas, produtos e contas, permite alterar seus dados, verifica se os dados são válidos e mostra as informações na tela.
