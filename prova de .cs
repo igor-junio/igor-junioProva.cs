@@ -44,6 +44,7 @@ class Pessoa
             nome = value;
         }
     }
+    
 public int Idade
     {
         get { return idade; }
@@ -55,3 +56,16 @@ public int Idade
             idade = value;
         }
     }
+
+public Pessoa(string nome, int idade)
+    {
+        Nome = nome;
+        Idade = idade;
+    }
+
+    public override string ToString()
+    {
+        return $"Nome: {Nome} | Idade: {Idade}";
+    }
+}
+
