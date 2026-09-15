@@ -44,3 +44,14 @@ class Pessoa
             nome = value;
         }
     }
+public int Idade
+    {
+        get { return idade; }
+        set
+        {
+            if (value < 0)
+                throw new Exception("A idade não pode ser negativa.");
+
+            idade = value;
+        }
+    }
