@@ -23,4 +23,24 @@
 // O construtor deve: inicializar os Atributos, Garantir Valores Validos
 //
 
-class
+
+
+
+using System;
+
+class Pessoa
+{
+    private string nome;
+    private int idade;
+
+    public string Nome
+    {
+        get { return nome; }
+        set
+        {
+            if (string.IsNullOrWhiteSpace(value))
+                throw new Exception("O nome não pode ser vazio.");
+
+            nome = value;
+        }
+    }
